@@ -1,5 +1,5 @@
 /*
-  My attempt to upload an image using the Qortal API.
+  This example downloads an image from the qortal full node.
 */
 
 const axios = require('axios')
