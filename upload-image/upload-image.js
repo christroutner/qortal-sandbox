@@ -8,7 +8,8 @@ const axios = require('axios')
 const fs = require('fs')
 const apikey = require('../apikey.json')
 
-const SERVER = 'https://qortal.psfoundation.info'
+// const SERVER = 'https://qortal.psfoundation.info'
+const SERVER = 'http://127.0.0.1:12391'
 
 const filename = './cat.jpeg'
 
@@ -23,7 +24,8 @@ async function start() {
     // so that it is not checked in with the code.
     const apiKey = apikey.apikey
     const headers = {
-      'X-API-KEY': apiKey
+      // 'X-API-KEY': apiKey
+      'X-API-KEY': 'T6nHgBvPGh3qo91kmEwBgn'
     }
 
     // The URL to call on the full node API
